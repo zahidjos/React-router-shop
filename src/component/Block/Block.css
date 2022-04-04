@@ -1,0 +1,8 @@
+.second_question ul{
+    text-align: left;
+
+}
+.first_question,
+.second_question{
+    margin: 30px 10px;
+}

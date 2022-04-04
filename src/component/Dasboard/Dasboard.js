@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import './Dasboard.css'
+import './Dasboard.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Line, LineChart,Tooltip, XAxis, YAxis,Legend,Cell,Bar,BarChart,CartesianGrid } from 'recharts';
 
