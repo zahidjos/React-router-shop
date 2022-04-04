@@ -1,0 +1,38 @@
+.reviewCard_part{
+    
+    
+    background-color: rgb(189, 216, 207);
+    padding: 20px 0;
+    margin: 5px;
+    border-radius: 10px;
+    }
+.review_img{
+    width: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.review_img img{
+    width: 100%;
+    max-width: 100%;
+}
+.review_text{
+    width:100% ;
+}
+.review_text h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #3b3b3b;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.review_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3b3b3b;
+}
+.review_text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}

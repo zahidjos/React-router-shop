@@ -1,5 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
+import './Dasboard.css'
+import { Col, Container, Row } from 'react-bootstrap';
 import { Line, LineChart,Tooltip, XAxis, YAxis,Legend,Cell,Bar,BarChart,CartesianGrid } from 'recharts';
 
 const Dasboard = () => {
@@ -10,16 +12,20 @@ const Dasboard = () => {
         .then(arr=>setdata(arr))
     },[])
     return (
-        <div>
-            <h1>I am dasboard</h1>
-            <LineChart width={400} height={400} data={data}>
+        <div className='dashboard_part'>
+            
+            <Container>
+              <Row>
+                <Col>
+                <LineChart width={400} height={400} data={data}>
                <Line type="monotone" dataKey="sell" stroke="#8884d8"></Line>
                <XAxis dataKey="month"></XAxis>
                <YAxis></YAxis>
                <Tooltip></Tooltip>
             </LineChart>
-            
-            <BarChart
+                </Col>
+                <Col>
+                <BarChart
           width={500}
           height={300}
           data={data}
@@ -38,7 +44,10 @@ const Dasboard = () => {
           <Bar dataKey="sell" fill="#8884d8" />
           
         </BarChart>
-        </div>
+                </Col>
+              </Row>
+            </Container>
+             </div>
     );
 };
 

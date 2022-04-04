@@ -8,6 +8,7 @@ import Reviews from './component/Reviews/Reviews';
 import Block from './component/Block/Block';
 import Header from './component/Header/Header';
 import Notfound from './component/Notfound/Notfound';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

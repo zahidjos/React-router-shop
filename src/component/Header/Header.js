@@ -8,10 +8,13 @@ const Header = () => {
         <div>
             <nav className='header_part'>
             <Link to="/home">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/block">Block</Link>
-            <Link to="/dashboard">Dashboard</Link>
             <Link to="/reviews">Reviews</Link>
+            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/block">Block</Link>
+            <Link to="/about">About</Link>
+            
+            
+            
             </nav>
             
             

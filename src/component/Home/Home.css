@@ -1,0 +1,68 @@
+.home_container{
+    
+    margin-top: 50px;
+    
+}
+.home_img img{
+width: 100%;
+max-width: 100%;
+}
+.home_text{
+    padding: 30px 10px;
+
+}
+.home_text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3b3b3b;
+
+
+}
+.home_text h1 span{
+    color: rgba(255, 102, 0, 0.918);
+}
+.home_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #3b3b3b;
+}
+.home_text button{
+    border: none;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.home_text button:hover{
+    background-color: rgba(136, 83, 83, 0.526);
+    color: #3b3b3b;
+}
+.customer_part{
+    padding: 30px;
+}
+.customer_review{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+}
+.customer_part a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(119, 119, 235);
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: all linear 0.3s;
+}
+.customer_part a:hover{
+    background-color: rgb(212, 212, 240);
+    color: #3b3b3b;
+}
